@@ -1,0 +1,137 @@
+a:link { 
+    color:#E9AB17;
+}
+
+a:visited {
+    color:#b62dc7;
+}
+a:hover {
+    color:#4bc1ee;
+}
+a {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: "Open Sans", "Josefin Slab", "PT Sans", Times, helvetica
+}
+
+/* gold: ; #E9AB17
+    light green: #42bd1d;
+    dark green: 
+    blue:#4bc1ee ;
+    violet: #b62dc7 ;*/
+
+a:active{
+    color:black;
+}
+
+
+h1 {
+    /*background-color: #FFD700;
+    margin: 0;
+    margin-bottom: 7px;
+    padding: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5em;
+    border-bottom-color: #E9AB17;
+    font-style: italic; */
+    font-size: 90px;
+    text-align: center;
+    font-family: "Open Sans", "Josefin Slab", "PT Sans", Times, helvetica
+} 
+h2 {
+    background-color: #4d4d4d;
+    font-size: 40px;
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 7px;
+    padding: 4px;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5em;
+    border-bottom-color: #bfbfbf;
+    font-family: "Open Sans", "Josefin Slab", "PT Sans", Times, helvetica
+
+}
+
+h3 {
+    font-family: "Open Sans", "Josefin Slab", "PT Sans", Times, helvetica
+}
+h4 {
+    text-align: center;
+    font-family: "Open Sans", "Josefin Slab", "PT Sans", Times, helvetica
+
+}
+body {
+    color: #fff;
+    background-color: #2683C8;
+    /*border-style: dotted;
+    border-width: 10px;
+    border-color: navy;
+    border-left-width: 10px;
+    border-right-width: 10px;*/
+  background-image: url(pic1.jpg);
+    background-attachment: fixed;
+    background-position: center center; 
+    background-repeat:no-repeat;
+ width: 85%;
+  margin-left: 100px;
+  margin-right:70px;
+
+}
+
+
+}
+table {
+    text-align: center;
+    font-family: "Open Sans", "Josefin Slab", "PT Sans", Times, helvetica
+}
+p{ 
+   font-size:25px;
+   text-align: center;
+    font-family: "Open Sans", "Josefin Slab", "PT Sans", Times, helvetica
+
+}
+
+    
+
+}
+
+option{
+    text-align: center;
+}
+
+table{
+    text-align: center;
+}
+
+
+
+
+nav {
+ position: fixed; 
+ top: 0;
+  left: 0;
+  height: 10px;
+  padding-top: 10px;
+  text-align: left;
+  width: 100%;
+  &.scrolled {
+   opacity: 0; 
+   transition: all 1s ease;
+
+    
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+p {
+ margin-top: 10px; 
+}
+
+
+
