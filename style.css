@@ -1,182 +1,51 @@
-body{
-  margin:0;
-  padding:0;
-  font-family:"arial",heletica,sans-serif;
-  font-size:12px;
-    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
-  -webkit-animation: 10s linear 0s normal none infinite animate;
-  -moz-animation: 10s linear 0s normal none infinite animate;
-  -ms-animation: 10s linear 0s normal none infinite animate;
-  -o-animation: 10s linear 0s normal none infinite animate;
-  animation: 10s linear 0s normal none infinite animate;
- 
-}
- 
-@-webkit-keyframes animate {
-  from {background-position:0 0;}
-  to {background-position: 500px 0;}
-}
- 
-@-moz-keyframes animate {
-  from {background-position:0 0;}
-  to {background-position: 500px 0;}
-}
- 
-@-ms-keyframes animate {
-  from {background-position:0 0;}
-  to {background-position: 500px 0;}
-}
- 
-@-o-keyframes animate {
-  from {background-position:0 0;}
-  to {background-position: 500px 0;}
-}
- 
-@keyframes animate {
-  from {background-position:0 0;}
-  to {background-position: 500px 0;}
+/* affects everything*/
+* {
+ font-family: "Baskerville", Helvetica, Arial, sans-serif;
+ font-weight: lighter;
+ position: relative;
 }
 
-a:hover {
-    color:#4bc1ee;
+body { 
+  max-width: 1080px; 
+  margin: 0 auto !important; 
+  float: none !important; 
+  background-color: #e1e7e6;
 }
+
+/* nav bar things*/
+div {
+  text-align: center;
+  margin: 
+}
+
+/* items within nav bar*/
 a {
-    color: #CEC144;
-    text-align: center;
-    font-size: 25px;
-    text-decoration: none;
-    font-family: "Open Sans", "Josefin Slab", "PT Sans", Times, helvetica
+  color: black;
 }
 
-a:active{
-    color:black;
+a.active {
+  color: black;
+  font-weight: bold;
 }
 
-
+/* name on top of page*/
 h1 {
-    color: #FFF;
-    font-size: 90px;
-    text-align: center;
-    font-family: "Open Sans", "Josefin Slab", "PT Sans", Times, helvetica
-} 
-h2 {
-    /** background-color: #4d4d4d;
-    font-size: 40px;
-    margin: 0;
-    padding: 4px;
-    text-align: center;
-    margin: 0;
-    margin-bottom: 7px;
-    padding: 4px;
-    border-bottom-style: solid;
-    border-bottom-width: 0.5em;
-    border-bottom-color: #bfbfbf; */
-    color:white;
-    text-align: center;
-    font-size: 40px;
-    font-family: "Open Sans", "Josefin Slab", "PT Sans", Times, helvetica
-
+  text-align: center;
+  font-weight: lighter;
 }
 
-h3 {
-    color: white;
-    font-family: "Open Sans", "Josefin Slab", "PT Sans", Times, helvetica
-}
-h4 {
-    color: white;
-    text-align: center;
-    font-family: "Open Sans", "Josefin Slab", "PT Sans", Times, helvetica
-
-}
-body {
-    /** color: #fff;
-    background-color: #2683C8;
-   background-image: url(graybackground.png);
-    background-attachment: fixed;
-    background-position: center center; */
-  width: 85%;
-  margin-left: 100px;
-  margin-right:70px;
-
+/* headshot on main page*/
+img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-}
-table {
-
-    text-align: center;
-    font-family: "Open Sans", "Josefin Slab", "PT Sans", Times, helvetica
-}
-p{ 
-   color: white;
-   font-size:25px;
-   text-align: center;
-    font-family: "Open Sans", "Josefin Slab", "PT Sans", Times, helvetica
-
-}
-
-
-option{
-    text-align: center;
-}
-
-
-nav {
- position: fixed; 
- top: 0;
-  left: 0;
-  height: 10px;
-  padding-top: 10px;
-  text-align: left;
-  width: 100%;
-  &.scrolled {
-   opacity: 0; 
-   transition: all 1s ease;
-
-    
-    &:hover {
-      opacity: 1;
-    }
-  }
-}
-
+/* regular text on main page*/
 p {
- margin-top: 10px; 
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333; 
-}
-
-li {
-    width: 20%;
-    float: left;
-}
-
-li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    color: white;
-    background-color: #8E8E88;
-}
-
-.navbar {
-    position: fixed; /* Set the navbar to fixed position */
-    bottom: 50; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-}
-
-/* Main content */
-.main {
-    margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 500px;
 }
