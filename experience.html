@@ -1,0 +1,59 @@
+<body>
+  <head>
+    <title>Sabrina Seibel</title>
+    <link rel="stylesheet" href="style.css"> 
+  </head>
+
+  <h1> Sabrina Seibel </h1>
+
+ <div class="topnav-centered">
+    <a href="index.html">Home</a>
+    <!-- <a href="About.html">About</a> -->
+    <a href="Resume.html">Resume</a>
+    <a href="Experience.html" class="active">Experience</a>
+  </div>
+ 
+    <h1> Internships </h1> 
+       <table><tr><td><img src="summer2019.png"  width="300" height="300" alt="my summer 2019" class="internship" ></td><td> 
+
+        <h1> Summer 2019 </h1>
+          <p>
+            I was on Google's Android Infrastructure Team where I worked on two main projects related to optimizations and efficiency. </p>
+
+           <p> The initial project that I tackled this summer was optimizing <a href="https://developers.google.com/protocol-buffers/docs/javatutorial"> Java Protocol Buffer</a> runtime. In order to make this process safe, I made major refactorings to the codebase using static analysis.</p>
+
+           <p>
+            Another project that I worked on was creating a tool to analyze generated source code.The end goal of this tool was to decrease APK size for Google applications. By identifying unnecessary generated code, we are able to cut out superfluous weight from applications. </p>
+       </td></tr></table>
+
+
+    <table><tr>
+      <td> 
+        <h1> Summer 2018 </h1>
+          <p>
+            I was on Google's Java Static Analysis team where I primarily worked on <a href="https://errorprone.info/"> Error Prone</a>. Error Prone is an open-source compiler plugin designed to find and eliminate bugs in Java code, and is used within Google's Java build system. 
+          </p>
+
+          <p>
+            For Error Prone, I worked on the compiler itself, where I helped enhance its ability to detect bugs, fix bugs, and enforce good code practices. 
+
+            To do this, I wrote checks that look for and match specific patterns within the AST. When a match is identified, the check replaces the incorrect code with valid alternative. 
+          </p>
+
+           <p>
+            A specific check I wrote pointed out a common developer mistake, <a href="https://github.com/google/error-prone/blob/6184f897ada2ad22cb9a690784a8f4748611334e/core/src/main/java/com/google/errorprone/bugpatterns/MathRoundIntLong.java"> passing an Integer into Math.round()</a>, inadvertently truncates the number. 
+          </p>
+
+          <p>
+            Aside from Error Prone, I contributed to a Build Diagnostics tool designed to increase developer efficiency!
+          </p> 
+
+       </td>
+
+       <td>
+        <img src="summer2018.png"  width="300" height="300" alt="my summer 2019" class="internship" ></td>
+     </tr></table>
+
+</body>
+
+

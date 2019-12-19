@@ -1,8 +1,9 @@
 /* affects everything*/
 * {
- font-family: "Baskerville", Helvetica, Arial, sans-serif;
- font-weight: lighter;
- position: relative;
+  font-family: "Baskerville", Helvetica, Arial, sans-serif;
+ /*font-weight: lighter;*/
+ /*position: relative;*/
+ text-align: center;
 }
 
 body { 
@@ -30,13 +31,28 @@ a.active {
 
 /* name on top of page*/
 h1 {
-  text-align: center;
+
+}
+
+h4 {
   font-weight: lighter;
 }
 
 /* headshot on main page*/
-img {
+.headshot {
   border-radius: 50%;
+}
+
+/* internship photos*/
+.internship {
+  border-radius: 20%;
+}
+
+.about {
+  border-radius: 5px;
+}
+
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -48,4 +64,12 @@ p {
   margin-right: auto;
   text-align: center;
   width: 500px;
+}
+
+table {
+  margin: 50px;
+}
+
+tr {
+  margin: 100px;
 }
