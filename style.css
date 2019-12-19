@@ -68,6 +68,8 @@ p {
 
 table {
   margin: 50px;
+  margin-left:auto; 
+  margin-right:auto;
 }
 
 tr {
