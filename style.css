@@ -1,0 +1,77 @@
+/* affects everything*/
+* {
+  font-family: "Baskerville", Helvetica, Arial, sans-serif;
+ /*font-weight: lighter;*/
+ /*position: relative;*/
+ text-align: center;
+}
+
+body { 
+  max-width: 1080px; 
+  margin: 0 auto !important; 
+  float: none !important; 
+  background-color: #e1e7e6;
+}
+
+/* nav bar things*/
+div {
+  text-align: center;
+  margin: 
+}
+
+/* items within nav bar*/
+a {
+  color: black;
+}
+
+a.active {
+  color: black;
+  font-weight: bold;
+}
+
+/* name on top of page*/
+h1 {
+
+}
+
+h4 {
+  font-weight: lighter;
+}
+
+/* headshot on main page*/
+.headshot {
+  border-radius: 50%;
+}
+
+/* internship photos*/
+.internship {
+  border-radius: 20%;
+}
+
+.about {
+  border-radius: 5px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* regular text on main page*/
+p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 500px;
+}
+
+table {
+  margin: 50px;
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+tr {
+  margin: 100px;
+}
