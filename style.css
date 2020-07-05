@@ -29,6 +29,15 @@ a.active {
   font-weight: bold;
 }
 
+/* bullet points */
+ul {
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 /* name on top of page*/
 h1 {
 
